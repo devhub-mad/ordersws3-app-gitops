@@ -11,7 +11,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io  
 spec:
-  project: ordersws3-app
+  project: default
   source:
     repoURL: https://github.com/devhub-mad/ordersws3-app-gitops
     targetRevision: HEAD
